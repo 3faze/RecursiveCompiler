@@ -340,10 +340,10 @@ public:
     }
 };
 
-int main()
+/*int main()
 {
     Tokenizer lexer;
     Token* token = lexer.tokenize("abcde", 0);
     std::cout << token->start_pos << " " << token->end_pos << " " << token->val << std::endl;
     return 0;
-}
+}*/
